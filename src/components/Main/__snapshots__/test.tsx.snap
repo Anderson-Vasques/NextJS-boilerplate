@@ -1,27 +1,70 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Main should render the heading 1`] = `
+.c0 {
+  background-color: #06092b;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.c1 {
+  width: 25rem;
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  font-size: 2.5rem;
+}
+
+.c3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.c4 {
+  margin-top: 3rem;
+  width: min(30rem,100%);
+}
+
 <main
-  class="styles__Wrapper-sc-19t6oi2-0 kUWDBO"
+  class="c0"
 >
   <img
     alt="Imagem de um átomo e React avançado escrito ao lado"
-    class="styles__Logo-sc-19t6oi2-1 eCMFeh"
+    class="c1"
     src="/img/logo.svg"
   />
   <h1
-    class="styles__Title-sc-19t6oi2-2 kIvHsX"
+    class="c2"
   >
     React avançado
   </h1>
   <h2
-    class="styles__Description-sc-19t6oi2-3 kzKRNc"
+    class="c3"
   >
     Typescript, ReactJS, NextJS e Styled Components
   </h2>
   <img
     alt="Desenvolvedo de frente para a tela com códdigo"
-    class="styles__Ilustration-sc-19t6oi2-4 jyHLQR"
+    class="c4"
     src="/img/hero-illustration.svg"
   />
 </main>
